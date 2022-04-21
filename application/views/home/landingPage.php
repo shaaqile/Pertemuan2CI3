@@ -1,12 +1,9 @@
 <!--carousel-->
 
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
     <div class="carousel-inner" style="height: 500px;">
         <div class="carousel-item active">
             <img src="<?= base_url('assets/'); ?>img/cat.jpg" class="d-block w-100" alt="..." style="margin-top: -100px;">
-        </div>
-        <div class="carousel-item">
-            <img src="<?= base_url('assets/'); ?>img/plant.jpg" class="d-block w-100" alt="..." style="margin-top: -200px;">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
